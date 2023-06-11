@@ -1,0 +1,27 @@
+syntax = "proto3";
+option csharp_namespace = "Grpc";
+package Payments;
+
+service PaymentService {
+    rpc ProcessPayment (ProcessPaymentRequest) returns (ProcessPaymentResponse);
+    rpc RefundPayment (RefundPaymentRequest) returns (RefundPaymentResponse);
+}
+
+message ProcessPaymentRequest {
+    string order_id = 1;
+    string user_id = 2;
+    double amount = 3;
+}
+
+message ProcessPaymentResponse {
+    string payment_id = 1;
+}
+
+message RefundPaymentRequest {
+    string order_id = 1;
+    string user_id = 2;
+}
+
+message RefundPaymentResponse {
+    bool is_success = 1;
+}

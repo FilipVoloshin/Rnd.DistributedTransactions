@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BU9Em5eLN1v5jfcIKjwCSWpzCL64zI08PxRNDe/FYV4=",
+  "Source": "Rnd.Orchestrator",
+  "BasePath": "_content/Rnd.Orchestrator",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

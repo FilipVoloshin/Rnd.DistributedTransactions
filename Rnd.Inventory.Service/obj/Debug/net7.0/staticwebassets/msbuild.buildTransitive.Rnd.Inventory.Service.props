@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Rnd.Inventory.Service.props" />
+</Project>

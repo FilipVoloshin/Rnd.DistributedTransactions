@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/filipvoloshin/RiderProjects/Rnd.Orchestrator/Rnd.Order.Service/Rnd.Order.Service.csproj": {}
+  },
+  "projects": {
+    "/Users/filipvoloshin/RiderProjects/Rnd.Orchestrator/Rnd.Order.Service/Rnd.Order.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/filipvoloshin/RiderProjects/Rnd.Orchestrator/Rnd.Order.Service/Rnd.Order.Service.csproj",
+        "projectName": "Rnd.Order.Service",
+        "projectPath": "/Users/filipvoloshin/RiderProjects/Rnd.Orchestrator/Rnd.Order.Service/Rnd.Order.Service.csproj",
+        "packagesPath": "/Users/filipvoloshin/.nuget/packages/",
+        "outputPath": "/Users/filipvoloshin/RiderProjects/Rnd.Orchestrator/Rnd.Order.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/filipvoloshin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.54.0-pre1, )"
+            },
+            "Grpc.AspNetCore.Server.Reflection": {
+              "target": "Package",
+              "version": "[2.54.0-pre1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.4.23259.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview.4.23259.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0-preview.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

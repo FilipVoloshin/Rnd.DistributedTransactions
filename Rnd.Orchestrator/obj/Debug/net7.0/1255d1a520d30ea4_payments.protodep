@@ -1,0 +1,2 @@
+obj/Debug/net7.0/Protos/Payments.cs \
+obj/Debug/net7.0/Protos/PaymentsGrpc.cs: Protos/payments.proto

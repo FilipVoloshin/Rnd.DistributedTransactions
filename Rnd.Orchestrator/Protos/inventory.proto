@@ -1,0 +1,39 @@
+syntax = "proto3";
+option csharp_namespace = "Grpc";
+package Inventory;
+
+import "google/protobuf/wrappers.proto";
+
+service InventoryService {
+    rpc ReserveInventory(ReserveInventoryRequest) returns (ReserveInventoryResponse);
+    rpc CheckInventory (CheckInventoryRequest) returns (CheckInventoryResponse);
+    rpc ReturnInventory (ReturnInventoryRequest) returns (ReturnInventoryResponse);
+}
+
+message CheckInventoryRequest {
+    string item_id = 1;
+    int32 quantity = 2;
+}
+
+message CheckInventoryResponse {
+    bool is_available = 1;
+}
+
+message ReserveInventoryRequest {
+    string item_id = 1;
+    int32 quantity = 2;
+}
+
+message ReserveInventoryResponse {
+    bool is_success = 1;
+    google.protobuf.DoubleValue price = 2;
+}
+
+message ReturnInventoryRequest {
+    string item_id = 1;
+    int32 quantity = 2;
+}
+
+message ReturnInventoryResponse {
+    bool is_success = 1;
+}
